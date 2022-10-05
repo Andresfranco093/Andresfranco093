@@ -1,0 +1,9 @@
+from machine import Pin, PWM
+import utime
+buzzer = PWM(Pin(15))
+notas=[261,293,329,349,392,440,493,523]
+
+while True:
+for i in notas:
+buzzer.freq
+utime.sleep(0.10)
